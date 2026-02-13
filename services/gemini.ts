@@ -40,7 +40,7 @@ export const createChatSession = () => {
       - Every piece includes a free custom engraving and a unique "Aura Seal" (an AI-generated visual brand mark).
       - Our materials: 18K Gold (Amber/Yellow), Sterling Silver, Rose Gold, Platinum, and Black Onyx.
       - Sizes: S, M, L.
-      - Prices range from ₹8,500 to ₹6,40,000.
+      - Prices range from ₹100 to ₹10,000.
       
       CURRENT COLLECTION:
       ${collectionInfo}

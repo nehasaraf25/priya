@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import Header from './components/Header';
 import ProductCard from './components/ProductCard';
@@ -14,7 +13,7 @@ const App: React.FC = () => {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [view, setView] = useState<'home' | 'cart' | 'detail'>('home');
   const [filterGender, setFilterGender] = useState<string>('All');
-  const [filterPrice, setFilterPrice] = useState<[number, number]>([0, 1000000]);
+  const [filterPrice, setFilterPrice] = useState<[number, number]>([100, 10000]);
   const [generatingSeal, setGeneratingSeal] = useState(false);
   const [auraSealUrl, setAuraSealUrl] = useState<string | null>(null);
 
@@ -59,7 +58,7 @@ const App: React.FC = () => {
   const addToCart = (product: Product, material: Material, size: Size, personalization?: string) => {
     setCart([...cart, { ...product, selectedMaterial: material, selectedSize: size, quantity: 1 }]);
     setView('cart');
-    setAuraSealUrl(null); // Reset seal for next view
+    setAuraSealUrl(null); 
   };
 
   const removeFromCart = (index: number) => {
@@ -90,7 +89,7 @@ const App: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div className="space-y-6">
-            <div className="aspect-[4/5] bg-zinc-50 overflow-hidden rounded-[40px] relative">
+            <div className="aspect-[4/5] bg-zinc-50 overflow-hidden rounded-[40px] relative border border-zinc-100 shadow-sm">
               <img 
                 src={product.images[selectedMaterial]} 
                 alt={product.name} 
@@ -282,7 +281,7 @@ const App: React.FC = () => {
           <>
             <section className="relative h-[95vh] overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1573408302185-9127fe5a0353?q=80&w=2070&auto=format&fit=crop" 
+                src="input_file_1.png" 
                 alt="Jewellery Aura" 
                 className="w-full h-full object-cover scale-105"
               />

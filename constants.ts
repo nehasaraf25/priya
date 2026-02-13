@@ -1,91 +1,89 @@
-
 import { Product } from './types';
 
-// Range from ~₹8,000 to ₹8,50,000 (roughly $100 - $10,000 USD)
 export const JEWELRY_COLLECTION: Product[] = [
   {
     id: 'lum-1',
-    name: 'The Main Character Ring',
+    name: 'The Connected Bands',
     category: 'Rings',
     gender: 'Unisex',
-    price: 98000,
-    description: 'A heavy 18K gold signet designed for those who own the room. Macro-polished for a mirror finish. This is your signature.',
-    materials: ['18K Gold', 'Sterling Silver', 'Platinum'],
+    price: 850,
+    description: 'A pair of minimalist gold bands featuring custom script engravings. Designed for those who remain "Always Connected" regardless of distance.',
+    materials: ['18K Gold', 'Sterling Silver', 'Rose Gold', 'Platinum'],
     sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1622398476035-711718918205?q=80&w=800&auto=format&fit=crop',
-      'Rose Gold': 'https://images.unsplash.com/photo-1603912627214-923b55ad4dc0?q=80&w=800&auto=format&fit=crop&sepia=30',
-      'Platinum': 'https://images.unsplash.com/photo-1622398476035-711718918205?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=800&auto=format&fit=crop'
+      '18K Gold': 'https://i.ibb.co/DfFRRYcq/Modern-Locket-Design-1.png',
+      'Sterling Silver': 'https://i.ibb.co/DfFRRYcq/Modern-Locket-Design-1.png',
+      'Rose Gold': 'https://i.ibb.co/DfFRRYcq/Modern-Locket-Design-1.png',
+      'Platinum': 'https://i.ibb.co/DfFRRYcq/Modern-Locket-Design-1.png',
+      'Black Onyx': 'https://i.ibb.co/DfFRRYcq/Modern-Locket-Design-1.png'
     }
   },
   {
     id: 'lum-2',
-    name: 'Aura Link Chain',
+    name: 'The Muse Medallion',
     category: 'Necklaces',
-    gender: 'Unisex',
-    price: 245000,
-    description: 'A bold, chunky link chain that serves quiet luxury with a loud presence. Originally a legacy design, updated for the now.',
-    materials: ['18K Gold', 'Platinum'],
-    sizes: ['M', 'L'],
+    gender: 'Women',
+    price: 1250,
+    description: 'An elegant gold coin pendant that captures the essence of refined luxury. Perfectly balanced to sit at the collarbone, making it your daily signature.',
+    materials: ['18K Gold', 'Rose Gold', 'Platinum'],
+    sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop',
-      'Rose Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop&sepia=40',
-      'Platinum': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop',
-      'Black Onyx': 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?q=80&w=800&auto=format&fit=crop'
+      '18K Gold': 'https://i.ibb.co/5XKsW0Lj/Initial-Ring-Set.png',
+      'Sterling Silver': 'https://i.ibb.co/5XKsW0Lj/Initial-Ring-Set.png',
+      'Rose Gold': 'https://i.ibb.co/5XKsW0Lj/Initial-Ring-Set.png',
+      'Platinum': 'https://i.ibb.co/5XKsW0Lj/Initial-Ring-Set.png',
+      'Black Onyx': 'https://i.ibb.co/5XKsW0Lj/Initial-Ring-Set.png'
     }
   },
   {
     id: 'lum-3',
-    name: 'Legacy Diamond Studs',
+    name: 'Amethyst Initial Hoops',
     category: 'Earrings',
     gender: 'Women',
-    price: 640000,
-    description: 'Brilliant-cut diamonds set in a minimalist 3-prong frame. Passed from mother to daughter, these are built to be forever.',
-    materials: ['18K Gold', 'Platinum', 'Rose Gold'],
-    sizes: ['S', 'M'],
+    price: 450,
+    description: 'Hand-carved amethyst letters suspended from sterling silver hoops. A vibrant, personalized statement that brings a pop of color to your fit.',
+    materials: ['Sterling Silver', '18K Gold', 'Rose Gold'],
+    sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Rose Gold': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&sepia=30',
-      'Platinum': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&bri=-40'
+      '18K Gold': 'https://i.ibb.co/qYRBv2PK/Mother-Daughter-Locket-Moment.png',
+      'Sterling Silver': 'https://i.ibb.co/qYRBv2PK/Mother-Daughter-Locket-Moment.png',
+      'Rose Gold': 'https://i.ibb.co/qYRBv2PK/Mother-Daughter-Locket-Moment.png',
+      'Platinum': 'https://i.ibb.co/qYRBv2PK/Mother-Daughter-Locket-Moment.png',
+      'Black Onyx': 'https://i.ibb.co/qYRBv2PK/Mother-Daughter-Locket-Moment.png'
     }
   },
   {
     id: 'lum-4',
-    name: 'Manifest Cuff',
-    category: 'Bracelets',
+    name: 'Hammered Signature Ring',
+    category: 'Rings',
     gender: 'Unisex',
-    price: 32000,
-    description: 'A sleek, solid band that fits every fit. Personalize with your mantra. Minimalist, but makes a statement.',
-    materials: ['Sterling Silver', 'Rose Gold', 'Black Onyx'],
+    price: 680,
+    description: 'A chunky, solid gold band with a hand-hammered texture. Rugged yet sophisticated, it represents raw strength and personal style.',
+    materials: ['18K Gold', 'Sterling Silver', 'Platinum', 'Black Onyx'],
     sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop',
-      'Rose Gold': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop&sepia=50',
-      'Platinum': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop&bri=-50'
+      '18K Gold': 'https://i.ibb.co/s904kP4n/Personalized-Initial-Gemstone-Earrings.png',
+      'Sterling Silver': 'https://i.ibb.co/s904kP4n/Personalized-Initial-Gemstone-Earrings.png',
+      'Rose Gold': 'https://i.ibb.co/s904kP4n/Personalized-Initial-Gemstone-Earrings.png',
+      'Platinum': 'https://i.ibb.co/s904kP4n/Personalized-Initial-Gemstone-Earrings.png',
+      'Black Onyx': 'https://i.ibb.co/s904kP4n/Personalized-Initial-Gemstone-Earrings.png'
     }
   },
   {
     id: 'lum-5',
-    name: 'The Era Pendant',
+    name: 'The Legacy Orb Locket',
     category: 'Necklaces',
-    gender: 'Women',
-    price: 8500,
-    description: 'A delicate coin pendant for the daily slay. Hand-engraved with the LŪM insignia.',
-    materials: ['Sterling Silver', '18K Gold'],
-    sizes: ['S', 'M'],
+    gender: 'Unisex',
+    price: 3200,
+    description: 'A brushed gold spherical locket that opens to reveal your most cherished memories. The ultimate heirloom for the modern era.',
+    materials: ['18K Gold', 'Platinum', 'Sterling Silver'],
+    sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1531995811006-35cb42e1a021?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop',
-      'Rose Gold': 'https://images.unsplash.com/photo-1531995811006-35cb42e1a021?q=80&w=800&auto=format&fit=crop&sepia=40',
-      'Platinum': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1531995811006-35cb42e1a021?q=80&w=800&auto=format&fit=crop&bri=-40'
+      '18K Gold': 'https://i.ibb.co/LzZCrFhY/Hammered-Gold-Texture.png',
+      'Sterling Silver': 'https://i.ibb.co/LzZCrFhY/Hammered-Gold-Texture.png',
+      'Rose Gold': 'https://i.ibb.co/LzZCrFhY/Hammered-Gold-Texture.png',
+      'Platinum': 'https://i.ibb.co/LzZCrFhY/Hammered-Gold-Texture.png',
+      'Black Onyx': 'https://i.ibb.co/LzZCrFhY/Hammered-Gold-Texture.png'
     }
   }
 ];
