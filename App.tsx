@@ -281,7 +281,7 @@ const App: React.FC = () => {
           <>
             <section className="relative h-[95vh] overflow-hidden">
               <img 
-                src="input_file_1.png" 
+                src="https://i.ibb.co/5XKsW0Lj/Initial-Ring-Set.png" 
                 alt="Jewellery Aura" 
                 className="w-full h-full object-cover scale-105"
               />
