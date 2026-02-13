@@ -1,0 +1,7 @@
+{
+  "name": "LŪM Jewelry",
+  "description": "Premium jewelry for your main character era. Personalized, AI-styled, and crafted for every vibe from Men to Women.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
