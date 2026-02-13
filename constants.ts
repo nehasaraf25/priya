@@ -13,11 +13,11 @@ export const JEWELRY_COLLECTION: Product[] = [
     materials: ['18K Gold', 'Sterling Silver', 'Platinum'],
     sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1603912627214-923b55ad4dc0?q=80&w=800&auto=format&fit=crop',
+      '18K Gold': 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop',
       'Sterling Silver': 'https://images.unsplash.com/photo-1622398476035-711718918205?q=80&w=800&auto=format&fit=crop',
       'Rose Gold': 'https://images.unsplash.com/photo-1603912627214-923b55ad4dc0?q=80&w=800&auto=format&fit=crop&sepia=30',
       'Platinum': 'https://images.unsplash.com/photo-1622398476035-711718918205?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop&bri=-20'
+      'Black Onyx': 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=800&auto=format&fit=crop'
     }
   },
   {
@@ -30,11 +30,11 @@ export const JEWELRY_COLLECTION: Product[] = [
     materials: ['18K Gold', 'Platinum'],
     sizes: ['M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop',
+      '18K Gold': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop',
+      'Sterling Silver': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop',
       'Rose Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop&sepia=40',
-      'Platinum': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop&bri=-40'
+      'Platinum': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop',
+      'Black Onyx': 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?q=80&w=800&auto=format&fit=crop'
     }
   },
   {
