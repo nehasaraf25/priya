@@ -1,84 +1,50 @@
 
 import { Product } from './types';
 
-// Using a conversion rate of roughly 1 USD = 83 INR
+// Range from ~₹8,000 to ₹8,50,000 (roughly $100 - $10,000 USD)
 export const JEWELRY_COLLECTION: Product[] = [
   {
-    id: '1',
-    name: 'Aurelius Signet',
+    id: 'lum-1',
+    name: 'The Main Character Ring',
     category: 'Rings',
-    gender: 'Men',
-    price: 99600,
-    description: 'The ultimate power move. A heavy signet for your main character energy. Bold, heavy, and commandingly elegant.',
+    gender: 'Unisex',
+    price: 98000,
+    description: 'A heavy 18K gold signet designed for those who own the room. Macro-polished for a mirror finish. This is your signature.',
     materials: ['18K Gold', 'Sterling Silver', 'Platinum'],
     sizes: ['S', 'M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=800&auto=format&fit=crop',
-      'Rose Gold': 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop&sat=-50',
-      'Platinum': 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=800&auto=format&fit=crop&sat=-100',
+      '18K Gold': 'https://images.unsplash.com/photo-1603912627214-923b55ad4dc0?q=80&w=800&auto=format&fit=crop',
+      'Sterling Silver': 'https://images.unsplash.com/photo-1622398476035-711718918205?q=80&w=800&auto=format&fit=crop',
+      'Rose Gold': 'https://images.unsplash.com/photo-1603912627214-923b55ad4dc0?q=80&w=800&auto=format&fit=crop&sepia=30',
+      'Platinum': 'https://images.unsplash.com/photo-1622398476035-711718918205?q=80&w=800&auto=format&fit=crop&sat=-100',
       'Black Onyx': 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop&bri=-20'
     }
   },
   {
-    id: '2',
-    name: 'Seraphina Pendant',
+    id: 'lum-2',
+    name: 'Aura Link Chain',
     category: 'Necklaces',
-    gender: 'Women',
-    price: 705500,
-    description: 'Catch the light and the vibes. High-clarity diamonds for that ethereal aesthetic.',
-    materials: ['18K Gold', 'Rose Gold', 'Platinum'],
-    sizes: ['S', 'M', 'L'],
-    images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop',
-      'Rose Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop&sepia=30',
-      'Platinum': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop'
-    }
-  },
-  {
-    id: '3',
-    name: 'Minimalist Stack Cuff',
-    category: 'Bracelets',
     gender: 'Unisex',
-    price: 37350,
-    description: 'Understated luxury for the minimalist at heart. Perfect for stacking or wearing solo to elevate your daily fit.',
-    materials: ['Sterling Silver', 'Rose Gold', 'Black Onyx'],
-    sizes: ['S', 'M', 'L'],
-    images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Rose Gold': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop&sepia=50',
-      'Platinum': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop&bri=-50'
-    }
-  },
-  {
-    id: '4',
-    name: 'Imperial Link',
-    category: 'Necklaces',
-    gender: 'Men',
-    price: 265600,
-    description: 'Heavy gauge links for a bold presence. It’s not just a chain; it’s a statement of prestige.',
+    price: 245000,
+    description: 'A bold, chunky link chain that serves quiet luxury with a loud presence. Originally a legacy design, updated for the now.',
     materials: ['18K Gold', 'Platinum'],
     sizes: ['M', 'L'],
     images: {
-      '18K Gold': 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=800&auto=format&fit=crop',
-      'Sterling Silver': 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Rose Gold': 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=800&auto=format&fit=crop&sepia=30',
-      'Platinum': 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=800&auto=format&fit=crop&sat=-100',
-      'Black Onyx': 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=800&auto=format&fit=crop&bri=-40'
+      '18K Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop',
+      'Sterling Silver': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop',
+      'Rose Gold': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop&sepia=40',
+      'Platinum': 'https://images.unsplash.com/photo-1611085583191-a3b13b24424a?q=80&w=800&auto=format&fit=crop&sat=-100',
+      'Black Onyx': 'https://images.unsplash.com/photo-1599643478518-a744c517b208?q=80&w=800&auto=format&fit=crop&bri=-40'
     }
   },
   {
-    id: '5',
-    name: 'Celestial Hoops',
+    id: 'lum-3',
+    name: 'Legacy Diamond Studs',
     category: 'Earrings',
     gender: 'Women',
-    price: 12450,
-    description: 'Lightweight hoops that live rent-free in your accessories drawer. Everyday sophistication for the win.',
-    materials: ['18K Gold', 'Sterling Silver', 'Rose Gold'],
+    price: 640000,
+    description: 'Brilliant-cut diamonds set in a minimalist 3-prong frame. Passed from mother to daughter, these are built to be forever.',
+    materials: ['18K Gold', 'Platinum', 'Rose Gold'],
     sizes: ['S', 'M'],
     images: {
       '18K Gold': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop',
@@ -86,6 +52,40 @@ export const JEWELRY_COLLECTION: Product[] = [
       'Rose Gold': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&sepia=30',
       'Platinum': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&sat=-100',
       'Black Onyx': 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop&bri=-40'
+    }
+  },
+  {
+    id: 'lum-4',
+    name: 'Manifest Cuff',
+    category: 'Bracelets',
+    gender: 'Unisex',
+    price: 32000,
+    description: 'A sleek, solid band that fits every fit. Personalize with your mantra. Minimalist, but makes a statement.',
+    materials: ['Sterling Silver', 'Rose Gold', 'Black Onyx'],
+    sizes: ['S', 'M', 'L'],
+    images: {
+      '18K Gold': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop',
+      'Sterling Silver': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop',
+      'Rose Gold': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop&sepia=50',
+      'Platinum': 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop&sat=-100',
+      'Black Onyx': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop&bri=-50'
+    }
+  },
+  {
+    id: 'lum-5',
+    name: 'The Era Pendant',
+    category: 'Necklaces',
+    gender: 'Women',
+    price: 8500,
+    description: 'A delicate coin pendant for the daily slay. Hand-engraved with the LŪM insignia.',
+    materials: ['Sterling Silver', '18K Gold'],
+    sizes: ['S', 'M'],
+    images: {
+      '18K Gold': 'https://images.unsplash.com/photo-1531995811006-35cb42e1a021?q=80&w=800&auto=format&fit=crop',
+      'Sterling Silver': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop',
+      'Rose Gold': 'https://images.unsplash.com/photo-1531995811006-35cb42e1a021?q=80&w=800&auto=format&fit=crop&sepia=40',
+      'Platinum': 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop&sat=-100',
+      'Black Onyx': 'https://images.unsplash.com/photo-1531995811006-35cb42e1a021?q=80&w=800&auto=format&fit=crop&bri=-40'
     }
   }
 ];

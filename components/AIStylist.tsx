@@ -17,26 +17,30 @@ const AIStylist: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-50 p-10 rounded-[40px] border border-gray-100 mb-16 relative overflow-hidden">
-      <div className="max-w-2xl mx-auto text-center">
-        <div className="inline-block px-3 py-1 bg-black text-white text-[10px] font-bold rounded-full uppercase tracking-widest mb-4">
-          Personalized Aura
+    <div className="bg-zinc-950 p-12 md:p-20 rounded-[60px] mb-32 relative overflow-hidden text-white shadow-2xl">
+      <div className="absolute top-0 right-0 p-12 opacity-10 pointer-events-none">
+        <h3 className="text-[12rem] font-black leading-none tracking-tighter">AI.</h3>
+      </div>
+      
+      <div className="max-w-2xl mx-auto text-center relative z-10">
+        <div className="inline-block px-4 py-1.5 bg-white text-black text-[9px] font-black rounded-full uppercase tracking-[0.3em] mb-8">
+          Styling Aura
         </div>
-        <h2 className="text-4xl font-bold luxury-font mb-4 tracking-tight">AI Style Check</h2>
-        <p className="text-gray-500 mb-8 text-sm">Tell us your fit, we'll curate the vibe.</p>
+        <h2 className="text-5xl md:text-7xl font-bold luxury-font mb-6 tracking-tighter">THE FIT CHECK.</h2>
+        <p className="text-zinc-500 mb-12 text-sm font-bold uppercase tracking-widest">Feed the AI your vibe, it'll curate the shine.</p>
         
-        <div className="flex flex-col gap-4 mb-8">
+        <div className="flex flex-col gap-5 mb-12">
           <input 
             type="text" 
-            placeholder="Occasion? (e.g. Rave, Brunch, Interview)"
-            className="p-4 rounded-2xl border-none focus:outline-none focus:ring-2 focus:ring-black bg-white shadow-sm placeholder:text-gray-300"
+            placeholder="Occasion? (e.g. Club, Gala, Sunday Reset)"
+            className="p-6 rounded-[32px] border-none focus:outline-none focus:ring-2 focus:ring-white bg-white/5 backdrop-blur-md text-white placeholder:text-zinc-700 text-lg font-medium"
             value={occasion}
             onChange={(e) => setOccasion(e.target.value)}
           />
           <input 
             type="text" 
-            placeholder="Fit check? (e.g. Baggy jeans, Satin slip)"
-            className="p-4 rounded-2xl border-none focus:outline-none focus:ring-2 focus:ring-black bg-white shadow-sm placeholder:text-gray-300"
+            placeholder="What's the fit? (e.g. Baggy suit, Silk slip)"
+            className="p-6 rounded-[32px] border-none focus:outline-none focus:ring-2 focus:ring-white bg-white/5 backdrop-blur-md text-white placeholder:text-zinc-700 text-lg font-medium"
             value={outfit}
             onChange={(e) => setOutfit(e.target.value)}
           />
@@ -45,14 +49,15 @@ const AIStylist: React.FC = () => {
         <button 
           onClick={handleAsk}
           disabled={loading || !occasion || !outfit}
-          className="px-10 py-4 bg-black text-white font-bold rounded-full transition-all hover:scale-105 active:scale-95 disabled:bg-gray-300"
+          className="px-16 py-6 bg-white text-black font-black rounded-full uppercase text-[11px] tracking-[0.3em] transition-all hover:scale-105 active:scale-95 disabled:bg-zinc-800 disabled:text-zinc-600 disabled:hover:scale-100"
         >
-          {loading ? 'Styling you...' : 'Consult Stylist'}
+          {loading ? 'Consulting The AI...' : 'Generate My Vibe'}
         </button>
 
         {advice && (
-          <div className="mt-10 p-8 bg-white rounded-3xl border border-gray-100 shadow-xl animate-in zoom-in duration-300">
-            <p className="text-lg leading-relaxed italic text-gray-800">"{advice}"</p>
+          <div className="mt-16 p-10 bg-white/5 border border-white/10 rounded-[40px] shadow-3xl animate-in zoom-in duration-500">
+            <h4 className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.4em] mb-6">AI Stylist Analysis</h4>
+            <p className="text-xl md:text-2xl leading-relaxed italic text-zinc-100 font-light tracking-tight">"{advice}"</p>
           </div>
         )}
       </div>
